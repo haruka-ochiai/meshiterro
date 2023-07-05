@@ -25,6 +25,9 @@ class PostImagesController < ApplicationController
     redirect_to post_images_path
   end
   
+  def edit
+  end
+  
   private
   
   def post_image_params
